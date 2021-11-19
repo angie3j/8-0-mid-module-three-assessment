@@ -1,1 +1,29 @@
 
+.app {
+    text-align: center;
+  }
+  
+  #checkout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: white;
+  }
+  
+  .products {
+    padding: 10px;
+    margin: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px -5px;
+    text-align: center;
+  }
+  
+  .product-image {
+    height: 100px;
+  }
+  
+  .products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: white;
+  }
